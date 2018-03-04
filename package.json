@@ -1,0 +1,31 @@
+{
+  "name": "algorithms-club",
+  "version": "1.0.0",
+  "description": "* project init * task #0 is done",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^4.18.2",
+    "lodash": "^4.17.5",
+    "should": "^13.2.1"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-config-google": "^0.9.1",
+    "eslint-plugin-import": "^2.9.0",
+    "mocha": "^5.0.1"
+  },
+  "scripts": {
+    "test__lint": "node ./node_modules/eslint/bin/eslint.js lib --fix",
+    "test": "node ./node_modules/eslint/bin/eslint.js lib && node ./node_modules/mocha/bin/mocha --recursive lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algorithms-club-1eb9/algorithms-yahno.git"
+  },
+  "author": "gerry",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/algorithms-club-1eb9/algorithms-yahno/issues"
+  },
+  "homepage": "https://github.com/algorithms-club-1eb9/algorithms-yahno#readme"
+}
